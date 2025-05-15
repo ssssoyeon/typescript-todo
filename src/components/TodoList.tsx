@@ -33,7 +33,7 @@ const TodoList = ({ todos, onUpdate, onDelete }: Props) => {
                 type="text"
                 value={search}
                 onChange={onChangeSearch}
-                placeholder='검색어를 입력하세요' />
+                placeholder='검색어를 입력하세요!' />
             <div className="todos_wrapper">
                 {filteredTodos.map((todo, i) => (
                     <TodoItem
